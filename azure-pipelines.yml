@@ -28,7 +28,7 @@ stages:
         tags: |
           $(tag)
 
-    - task: NeuVectorScan@3
+    - task: NeuVectorScan@2
       inputs:
         scanType: 'standalone'
         nvContainerRegistry: 'docker hub lsong'
